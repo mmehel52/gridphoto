@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 20vw);
+  grid-template-rows: repeat(5, 20vh);
+  gap: 2rem;
+  width: 90%;
+}
+.d1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: blue;
+  background-image: url(https://cdn.pixabay.com/photo/2022/07/26/12/43/mountains-7345777__340.jpg);
+  background-size: cover;
+}
+.d1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: blue;
+}
+.d2 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: blue;
+  background-image: url(https://cdn.pixabay.com/photo/2021/04/29/06/23/planet-6215636__340.jpg);
+}
+.d3 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: blue;
+  background-image: url(https://cdn.pixabay.com/photo/2022/01/28/09/26/azadi-tower-6974106__340.jpg);
+}
+.d4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: blue;
+  background-image: url(https://cdn.pixabay.com/photo/2018/05/19/19/25/animal-3414131__340.jpg);
+}
+.d5 {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  background-color: blue;
+}
+.d6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: blue;
+  background-image: url(https://cdn.pixabay.com/photo/2022/08/19/01/06/ferris-wheel-7395944__340.jpg);
+}
+.d7 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: blue;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.d5.img {
+  height: 100%;
+  width: 100%;
+}
+.d7 {
+  background-image: url(https://cdn.pixabay.com/photo/2022/08/14/13/42/flower-7385943__340.jpg);
+  background-size: cover;
+}
